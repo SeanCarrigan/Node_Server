@@ -10,3 +10,25 @@ Tue 05-21-2024	12:29:06	43aac516-cc3d-4f9c-a159-9d5108ba1223	SyntaxError: Expect
 Tue 05-21-2024	15:16:41	1b42c106-aec8-4805-bb7f-909c68f37bd2	SyntaxError: Unexpected token 'S', ..."rstname": Sean,
   "l"... is not valid JSON
 Tue 05-21-2024	15:19:00	29740462-53d1-43fb-b698-c22f81230a9a	SyntaxError: Expected ',' or '}' after property value in JSON at position 14 (line 3 column 3)
+Wed 05-29-2024	09:48:35	042a7c66-0163-4b7a-981a-928be1e90f02	SyntaxError: Unexpected token 'y', "yJhbGciOiJ"... is not valid JSON
+Wed 05-29-2024	09:49:12	2f8f41ff-f9c6-435a-9e42-7413b833039f	SyntaxError: Unexpected token 'e', "eyJhbGciOi"... is not valid JSON
+Wed 05-29-2024	09:49:29	35abbbf7-9c49-4efb-9165-053b71405366	SyntaxError: Unexpected token 'e', "eyJhbGciOi"... is not valid JSON
+Wed 05-29-2024	09:49:30	b46e939e-777f-4d4c-96cf-b86b4900c5ae	SyntaxError: Unexpected token 'e', "eyJhbGciOi"... is not valid JSON
+Wed 05-29-2024	11:04:04	884b7507-79e0-4f04-9ce4-28ec90578172	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:06	3079698f-f12b-4733-a1fa-760b87366fdf	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:08	6b60188f-bdcd-43f4-96c5-30c889e95f1a	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:09	337edaf4-53f1-493e-ba07-5dddc16e4a26	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:10	e7b051b2-ba47-443e-b1a7-335c26e51820	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:10	a78f50a8-1e29-4721-a4d0-e3c30e78ccf2	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:11	d9c735cf-89df-44a0-bc1c-a07c746582a2	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:11	484fb30f-e4c6-47c6-91db-52d5eabfda5a	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:12	dd0e2fb3-24a5-4b75-aa31-6003118703ed	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:12	2ed86107-f4bb-4a13-b51b-406de99c7074	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:13	e841158f-6655-4ca2-9054-ed8408e0ba7c	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:13	4510e12a-4303-495c-9802-e6a9f3dbc399	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:14	fa4810ef-0488-426c-a5d8-43949feb6a77	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:14	41e194ce-f7ed-4dbe-a863-77347ce74e05	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:15	03795c83-6ad6-4991-9587-4118a3c290cc	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:16	75f3e867-4d6c-47c9-985b-163cd65c2843	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:20	b6070ad4-2e26-4c02-a7b9-e6d596f2cce2	TypeError: Cannot read properties of undefined (reading 'username')
+Wed 05-29-2024	11:04:21	3bdc72de-93c7-47c1-8063-9c856e6505d1	TypeError: Cannot read properties of undefined (reading 'username')

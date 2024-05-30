@@ -1,16 +1,28 @@
+// Setup a local ssl proxy server
+// npm i -g local-ssl-proxy
+// local-ssl-proxy --source 3001 --target 3500
+
+
+
 const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
-const PORT = process.env.PORT || 3500;
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const cookieParser = require('cookie-parser');
 const verifyJWT = require('./middleware/verifyJWT');
+const credentials = require('./middleware/credentials');
+
+const PORT = process.env.PORT || 3500;
 
 // custom middleware logger - code for logging in logEvents.js
 app.use(logger);
+
+// Handle options credentials check - before CORS
+// add fetch cookies credentials requirement
+app.use(credentials);
 
 // Cross Origin Resource Sharing
 app.use(cors(corsOptions));

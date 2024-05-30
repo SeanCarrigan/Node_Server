@@ -10,7 +10,7 @@ const getAllEmployees = (req, res) => {
 };
 
 const getEmployee = (req, res) => {
-//   console.log(`ID: ${parseInt(req.params.id)}`);
+  //   console.log(`ID: ${parseInt(req.params.id)}`);
   const employee = data.employees.find(
     (emp) => emp.id === parseInt(req.params.id)
   );
@@ -67,6 +67,7 @@ const updateEmployee = (req, res) => {
 
 const deleteEmployee = (req, res) => {
   // find employee record to DELETE if it exists using employee id
+  console.log(req.body.id);
   const employee = data.employees.find(
     (emp) => emp.id === parseInt(req.body.id)
   );

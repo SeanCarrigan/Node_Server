@@ -32,3 +32,4 @@ Wed 05-29-2024	11:04:15	03795c83-6ad6-4991-9587-4118a3c290cc	TypeError: Cannot r
 Wed 05-29-2024	11:04:16	75f3e867-4d6c-47c9-985b-163cd65c2843	TypeError: Cannot read properties of undefined (reading 'username')
 Wed 05-29-2024	11:04:20	b6070ad4-2e26-4c02-a7b9-e6d596f2cce2	TypeError: Cannot read properties of undefined (reading 'username')
 Wed 05-29-2024	11:04:21	3bdc72de-93c7-47c1-8063-9c856e6505d1	TypeError: Cannot read properties of undefined (reading 'username')
+Thu 05-30-2024	10:25:23	b32a11d7-3087-42ef-8dfe-544ab606cfe3	TypeError: authHeader?.startswith is not a function

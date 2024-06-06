@@ -1,12 +1,7 @@
-const usersDB = {
-  users: require('../model/users.json'),
-  setUsers: function (data) {
-    this.users = data;
-  },
-};
+const User = require('../model/User');
 const jwt = require('jsonwebtoken');
 
-const handleRefreshToken = (req, res) => {
+const handleRefreshToken = async (req, res) => {
   const cookies = req.cookies;
   if (!cookies?.jwt) {
     console.log('No JWT cookie found');
@@ -16,11 +11,8 @@ const handleRefreshToken = (req, res) => {
   const refreshToken = cookies.jwt;
   console.log('Received Refresh Token:', refreshToken);
 
-  const foundUser = usersDB.users.find(
-    (person) => person.refreshToken === refreshToken
-  );
+  const foundUser = await User.findOne({ refreshToken }).exec();
   if (!foundUser) {
-    console.log('No user found with the provided refresh token');
     return res.sendStatus(403); // Forbidden
   }
 
@@ -47,7 +39,7 @@ const handleRefreshToken = (req, res) => {
       },
 
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: '60s' }
+      { expiresIn: '180s' }
     );
 
     console.log('New Access Token:', accessToken);

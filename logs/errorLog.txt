@@ -33,3 +33,11 @@ Wed 05-29-2024	11:04:16	75f3e867-4d6c-47c9-985b-163cd65c2843	TypeError: Cannot r
 Wed 05-29-2024	11:04:20	b6070ad4-2e26-4c02-a7b9-e6d596f2cce2	TypeError: Cannot read properties of undefined (reading 'username')
 Wed 05-29-2024	11:04:21	3bdc72de-93c7-47c1-8063-9c856e6505d1	TypeError: Cannot read properties of undefined (reading 'username')
 Thu 05-30-2024	10:25:23	b32a11d7-3087-42ef-8dfe-544ab606cfe3	TypeError: authHeader?.startswith is not a function
+Wed 06-05-2024	15:50:48	9041e8ae-cc61-45ab-a84a-20876e836f16	SyntaxError: Unexpected end of JSON input
+Wed 06-05-2024	15:53:28	838bc254-4e59-4fed-b240-bfc94255a270	SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+Wed 06-05-2024	15:58:23	988be9ab-07ec-4b06-afd2-c302630265f2	SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+Thu 06-06-2024	12:41:04	749e1a99-c2fa-4344-8b5c-a4e2dac2efe1	SyntaxError: Expected ',' or '}' after property value in JSON at position 11 (line 1 column 12)
+Thu 06-06-2024	12:41:46	b8b861bc-3319-478f-bd9a-008834b05c19	SyntaxError: Expected ',' or '}' after property value in JSON at position 11 (line 1 column 12)
+Thu 06-06-2024	12:42:02	cea09236-9389-47be-bede-cad2414cccf5	SyntaxError: Expected ',' or '}' after property value in JSON at position 11 (line 1 column 12)
+Thu 06-06-2024	12:42:10	34b77dce-3183-47d7-ad29-8274fc7faf2c	SyntaxError: Expected ',' or '}' after property value in JSON at position 11 (line 1 column 12)
+Thu 06-06-2024	12:42:51	e43c4386-8ed7-45f1-b12c-b1ca45cba317	SyntaxError: Expected ',' or '}' after property value in JSON at position 12 (line 1 column 13)
